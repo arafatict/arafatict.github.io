@@ -82,6 +82,7 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 .credential-placeholder small { display: block; margin-top: 4px; color: var(--muted); line-height: 1.5; }
 .credential-button { display: inline-flex; margin-top: 12px; padding: 7px 10px; border-radius: 8px; color: #fff; background: var(--blue); font-size: .82rem; font-weight: 750; text-decoration: none; }
 .credential-button:hover, .credential-button:focus { background: var(--blue-dark); }
+.graduation-photo { display: block; width: 100%; max-height: 260px; margin-top: 12px; border-radius: 10px; object-fit: cover; object-position: center; }
 .project-list { margin-top: 42px; border-top: 1px solid var(--line); }
 .project-row { display: grid; grid-template-columns: 55px 1fr auto; gap: 22px; align-items: start; padding: 25px 0; border-bottom: 1px solid var(--line); }
 .project-number { color: var(--blue); font-family: "SFMono-Regular", Consolas, monospace; font-weight: 800; }
