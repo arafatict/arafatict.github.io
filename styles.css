@@ -114,6 +114,9 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 .project-number { color: var(--blue); font-family: "SFMono-Regular", Consolas, monospace; font-weight: 800; }
 .project-row h3 { margin-bottom: 7px; }
 .project-row p { color: var(--muted); margin-bottom: 0; }
+.project-links { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 13px; }
+.project-links a { color: var(--blue-dark); font-size: .84rem; font-weight: 750; text-decoration: none; }
+.project-links a:hover, .project-links a:focus { text-decoration: underline; }
 .project-tag { color: var(--muted); padding-top: 4px; white-space: nowrap; }
 .note { margin-top: 22px; color: var(--muted); font-size: .88rem; font-style: italic; }
 .contact-section { background: var(--navy); color: #fff; }
