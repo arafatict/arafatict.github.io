@@ -105,6 +105,10 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 .contact-card span { display: block; color: #94a3b8; font-size: .75rem; text-transform: uppercase; letter-spacing: .1em; font-weight: 800; }
 .contact-card strong { color: #fff; font-size: 1rem; }
 .social-links p { color: #cbd5e1; margin: 6px 0 0; font-size: .9rem; }
+.social-link-list { display: grid; gap: 10px; }
+.social-link { display: inline-flex !important; align-items: center; gap: 9px; padding: 0 !important; border-bottom: 0 !important; color: #e0f2fe !important; }
+.social-link:hover, .social-link:focus { color: #fff !important; }
+.social-icon { width: 18px; height: 18px; flex: 0 0 18px; }
 .footer { background: #070c16; color: #94a3b8; font-size: .82rem; padding: 22px 0; }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
 .footer a { color: #cbd5e1; text-decoration: none; }
