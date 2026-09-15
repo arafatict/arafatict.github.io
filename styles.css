@@ -70,6 +70,10 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 .journey-content p, .journey-content li { color: var(--muted); }
 .journey-content p { margin-bottom: 13px; }
 .journey-content ul { margin: 0 0 18px; padding-left: 20px; }
+.journey-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 24px; }
+.journey-gallery figure { margin: 0; }
+.journey-gallery img { display: block; width: 100%; aspect-ratio: 4 / 3; border-radius: 12px; object-fit: cover; box-shadow: 0 10px 24px rgba(15, 23, 42, .10); }
+.journey-gallery figcaption { margin-top: 8px; color: var(--muted); font-size: .76rem; line-height: 1.4; }
 .timeline { margin-top: 44px; }
 .timeline-item { display: grid; grid-template-columns: 135px 1fr; gap: 32px; padding: 30px 0; border-top: 1px solid var(--line); }
 .timeline-date { color: var(--blue); font-size: .83rem; font-weight: 800; letter-spacing: .06em; }
@@ -144,6 +148,7 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 @media (max-width: 520px) {
   h1 { font-size: clamp(2.3rem, 13vw, 3.8rem); }
   .skill-grid { grid-template-columns: 1fr; }
+  .journey-gallery { grid-template-columns: 1fr; }
   .credential-placeholders { grid-template-columns: 1fr; }
   .timeline-item { grid-template-columns: 1fr; gap: 8px; }
   .project-row { grid-template-columns: 35px 1fr; gap: 12px; }
