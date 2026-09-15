@@ -125,6 +125,23 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 .contact-card a:last-of-type, .contact-card > div:last-child { border-bottom: 0; }
 .contact-card span { display: block; color: #94a3b8; font-size: .75rem; text-transform: uppercase; letter-spacing: .1em; font-weight: 800; }
 .contact-card strong { color: #fff; font-size: 1rem; }
+.note-section { padding: 86px 0; background: #f7f9fc; border-top: 1px solid var(--line); }
+.note-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 72px; align-items: start; }
+.note-intro h2 { margin-bottom: 18px; }
+.note-intro > p:last-child { max-width: 500px; color: var(--muted); font-size: 1.04rem; }
+.note-form { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; padding: 28px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); box-shadow: var(--shadow); }
+.note-form label { color: var(--ink); font-size: .86rem; font-weight: 750; }
+.note-form label span { color: #dc2626; }
+.note-form input, .note-form select, .note-form textarea { width: 100%; border: 1px solid #cbd5e1; border-radius: 10px; padding: 11px 12px; color: var(--ink); background: #fff; font: inherit; font-size: .94rem; }
+.note-form input:focus, .note-form select:focus, .note-form textarea:focus { outline: 3px solid rgba(37, 99, 235, .18); border-color: var(--blue); }
+.note-form textarea { resize: vertical; min-height: 145px; }
+.note-form input, .note-form select, .note-form textarea, .note-form button, .form-status { grid-column: 1 / -1; }
+.note-form label:nth-of-type(1), .note-form input:nth-of-type(1), .note-form label:nth-of-type(2), .note-form input:nth-of-type(2) { grid-column: auto; }
+.note-form .button { justify-self: start; margin-top: 5px; border: 0; cursor: pointer; }
+.note-form .button:disabled { cursor: wait; opacity: .65; }
+.form-status { min-height: 24px; margin: 0; font-size: .9rem; }
+.form-status.success { color: #047857; }
+.form-status.error { color: #b91c1c; }
 .social-links p { color: #cbd5e1; margin: 6px 0 0; font-size: .9rem; }
 .social-link-list { display: grid; gap: 10px; }
 .social-link { display: inline-flex !important; align-items: center; gap: 9px; padding: 0 !important; border-bottom: 0 !important; color: #e0f2fe !important; }
@@ -137,6 +154,9 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
   .container { width: min(100% - 28px, 680px); }
   .hero { padding: 72px 0 62px; }
   .hero-grid, .two-column, .contact-grid { grid-template-columns: 1fr; gap: 38px; }
+  .note-grid { grid-template-columns: 1fr; gap: 34px; }
+  .note-form { grid-template-columns: 1fr; }
+  .note-form label, .note-form input, .note-form select, .note-form textarea, .note-form button, .form-status { grid-column: 1 / -1 !important; }
   .journey-timeline { margin-left: 0; }
   .skill-grid { grid-template-columns: repeat(2, 1fr); }
   .section { padding: 68px 0; }
