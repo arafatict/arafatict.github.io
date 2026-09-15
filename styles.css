@@ -72,6 +72,14 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 .education-list article:last-child { border-bottom: 0; }
 .education-list h3 { margin-bottom: 7px; }
 .education-list p { color: var(--muted); margin-bottom: 0; }
+.institution-details { margin-top: 18px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 12px; background: #f8fafc; color: var(--muted); font-size: .9rem; line-height: 1.75; }
+.institution-details strong { color: var(--ink); }
+.institution-details a { color: var(--blue-dark); text-decoration: none; }
+.institution-details a:hover, .institution-details a:focus { text-decoration: underline; }
+.credential-placeholders { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+.credential-placeholder { padding: 14px; border: 1px dashed #aebdcc; border-radius: 12px; background: #fff; }
+.credential-placeholder span { display: block; color: var(--blue-dark); font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.credential-placeholder small { display: block; margin-top: 4px; color: var(--muted); line-height: 1.5; }
 .project-list { margin-top: 42px; border-top: 1px solid var(--line); }
 .project-row { display: grid; grid-template-columns: 55px 1fr auto; gap: 22px; align-items: start; padding: 25px 0; border-bottom: 1px solid var(--line); }
 .project-number { color: var(--blue); font-family: "SFMono-Regular", Consolas, monospace; font-weight: 800; }
@@ -106,6 +114,7 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 @media (max-width: 520px) {
   h1 { font-size: clamp(2.3rem, 13vw, 3.8rem); }
   .skill-grid { grid-template-columns: 1fr; }
+  .credential-placeholders { grid-template-columns: 1fr; }
   .timeline-item { grid-template-columns: 1fr; gap: 8px; }
   .project-row { grid-template-columns: 35px 1fr; gap: 12px; }
   .project-tag { grid-column: 2; }
