@@ -45,6 +45,7 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 .availability { color: #bfdbfe; font-size: .9rem; }
 .status-dot { width: 9px; height: 9px; display: inline-block; margin-right: 8px; border-radius: 50%; background: #34d399; box-shadow: 0 0 0 5px rgba(52, 211, 153, .14); }
 .hero-card { padding: 28px; border: 1px solid #334155; border-radius: var(--radius); background: rgba(15, 23, 42, .78); box-shadow: var(--shadow); }
+.profile-photo { display: block; width: 122px; height: 122px; margin: 0 auto 24px; border: 3px solid #93c5fd; border-radius: 50%; object-fit: cover; object-position: center top; }
 .card-label { color: #93c5fd; margin-bottom: 30px; }
 .terminal-line { color: #93c5fd; font-family: "SFMono-Regular", Consolas, monospace; }
 .terminal-line span { color: #34d399; }
