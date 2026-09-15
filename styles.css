@@ -72,6 +72,11 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 .education-list article:last-child { border-bottom: 0; }
 .education-list h3 { margin-bottom: 7px; }
 .education-list p { color: var(--muted); margin-bottom: 0; }
+.education-description { margin-top: 14px; }
+.bba-skills { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
+.bba-skills strong { color: var(--ink); font-size: .86rem; }
+.skill-pills { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+.skill-pills span { padding: 5px 9px; border: 1px solid #cbd5e1; border-radius: 999px; background: #f8fafc; color: #46566b; font-size: .78rem; line-height: 1.35; }
 .institution-details { margin-top: 18px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 12px; background: #f8fafc; color: var(--muted); font-size: .9rem; line-height: 1.75; }
 .institution-details strong { color: var(--ink); }
 .institution-details a { color: var(--blue-dark); text-decoration: none; }
