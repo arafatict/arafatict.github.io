@@ -57,6 +57,19 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 .section-kicker { color: var(--blue); margin-bottom: 18px; }
 .two-column { display: grid; grid-template-columns: .8fr 1.2fr; gap: 80px; }
 .section-body { color: var(--muted); font-size: 1.04rem; }
+.journey-section { background: #fff; }
+.journey-intro { max-width: 720px; margin-bottom: 46px; }
+.journey-timeline { position: relative; max-width: 900px; margin-left: 18px; }
+.journey-timeline::before { content: ""; position: absolute; left: 18px; top: 8px; bottom: 8px; width: 1px; background: #cbd5e1; }
+.journey-step { position: relative; display: grid; grid-template-columns: 62px 1fr; gap: 26px; padding-bottom: 44px; }
+.journey-step:last-child { padding-bottom: 0; }
+.journey-marker { position: relative; z-index: 1; display: flex; align-items: center; justify-content: center; width: 37px; height: 37px; border: 1px solid #93c5fd; border-radius: 50%; color: var(--blue-dark); background: #eff6ff; font-family: "SFMono-Regular", Consolas, monospace; font-size: .78rem; font-weight: 800; }
+.journey-content { padding-bottom: 5px; }
+.journey-label { margin-bottom: 9px !important; color: var(--blue); font-size: .74rem !important; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.journey-content h3 { margin-bottom: 14px; font-size: clamp(1.25rem, 2.3vw, 1.75rem); }
+.journey-content p, .journey-content li { color: var(--muted); }
+.journey-content p { margin-bottom: 13px; }
+.journey-content ul { margin: 0 0 18px; padding-left: 20px; }
 .timeline { margin-top: 44px; }
 .timeline-item { display: grid; grid-template-columns: 135px 1fr; gap: 32px; padding: 30px 0; border-top: 1px solid var(--line); }
 .timeline-date { color: var(--blue); font-size: .83rem; font-weight: 800; letter-spacing: .06em; }
@@ -120,6 +133,7 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
   .container { width: min(100% - 28px, 680px); }
   .hero { padding: 72px 0 62px; }
   .hero-grid, .two-column, .contact-grid { grid-template-columns: 1fr; gap: 38px; }
+  .journey-timeline { margin-left: 0; }
   .skill-grid { grid-template-columns: repeat(2, 1fr); }
   .section { padding: 68px 0; }
   .menu-toggle { display: block; }
