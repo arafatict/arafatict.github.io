@@ -72,6 +72,10 @@ h3 { line-height: 1.25; letter-spacing: -.025em; }
 .education-list article:last-child { border-bottom: 0; }
 .education-list h3 { margin-bottom: 7px; }
 .education-list p { color: var(--muted); margin-bottom: 0; }
+.education-card-heading { display: flex; align-items: center; gap: 10px; }
+.education-card-heading h3 { margin-bottom: 7px; }
+.school-icon { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; flex: 0 0 28px; border-radius: 8px; color: var(--blue-dark); background: #dbeafe; }
+.school-icon svg { width: 18px; height: 18px; }
 .education-description { margin-top: 14px; }
 .bba-skills { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); }
 .bba-skills strong { color: var(--ink); font-size: .86rem; }
